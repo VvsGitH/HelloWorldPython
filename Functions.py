@@ -31,7 +31,7 @@ def cm(feet=0, inches=0):
 
 
 # RECURSIVE FUNCTION WITH MEMOIZATION
-@lru_cache(maxsize=1000)    # thi is a decorator: it enables caching for the function
+@lru_cache(maxsize=1000)    # this is a decorator: it enables caching for the function
 def fibonacci_sequence(n):
     """ return the Nth element of the Fibonacci Sequence (starting from 0) """
     # Check the input for data type
