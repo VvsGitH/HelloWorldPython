@@ -15,7 +15,7 @@ print(n, ' is a ', type(n))
 print('-' * 20)
 
 # OPERATORS
-#   Addiction:      a + b
+#   Addition:      a + b
 #   Subtraction:    a - b
 #   Multiplication: a * b
 #   Exponential:    a ** b

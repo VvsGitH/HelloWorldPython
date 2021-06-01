@@ -75,6 +75,3 @@ tpl = ()
 print(tpl)
 tpl = ('a', 'b', 'c')
 print(tpl)
-
-
-

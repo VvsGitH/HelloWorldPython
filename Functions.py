@@ -53,11 +53,19 @@ def fibonacci_sequence(n):
 # common functions could return lambda expressions
 #   Application 1 : Give them a name and use them as functions (not very used)
 """ Eg1 - Composing the full name from distinct and badly written first and last name """
-full_name = lambda first, last: first.strip().title() + " " + last.strip().title()
+def full_name(first, last): return first.strip().title() + " " + last.strip().title()
+
+
 print('Full Name =', full_name('     vito', '  PAPARELLA   '))
+
+
 """ Eg2 - Calculating the value of a polynomial expression """
-value = lambda x: 2*x**2 + 3*x - 5
+def value(x): return 2*x**2 + 3*x - 5
+
+
 print("The polynomial '2x^2 + 3x -5' in x=0 is equal to:", value(0))
+
+
 #   Application 2 : Use them in the key of a sort functions
 name_list = ['Vito Paparella', 'Gino Pauli', 'Rocco Lollo', 'Pinco Pallo', 'Beppe Freppe']
 name_list.sort(key=lambda name: name.split(" ")[0])         # Ordering by name

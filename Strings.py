@@ -25,9 +25,11 @@ first_name = 'John'
 last_name = 'Smith'
 msg = first_name + ' ' + last_name + ' wants an apple.'
 print(msg)
-msg = '{} {} wants an apple.'.format(first_name, last_name)     # Old python
+# Old python
+msg = '{} {} wants an apple.'.format(first_name, last_name)
 print(msg)
-msg = f'{first_name} {last_name} wants an apple.'               # New python: you could run code in placeholders!
+# New python: you could run code in placeholders!
+msg = f'{first_name} {last_name} wants an apple.'
 print(msg)
 print('-' * 20)
 
@@ -43,7 +45,8 @@ print(string.upper())
 print(string.lower())
 print(f"The letter 's appears {string.count('s')} times in the string")
 print(f"The index of ':' is {string.find(':')}")
-new_string = string.replace('a string', 'CODING')   # a new instance is necessary for the replacement
+# a new instance is necessary for the replacement
+new_string = string.replace('a string', 'CODING')
 print(new_string)
 print('-' * 20)
 

@@ -3,7 +3,7 @@
 #       In .venv/pyvenv.cfg set include-system-site-packages = true
 # 2. Activate the VENV:
 #       .venv\Scripts\Activate
-# 2.1. [First Time Only] Update pip: 
+# 2.1. [First Time Only] Update pip:
 #       python -m pip install -U pip
 # 3. [First Time Only] Install matplotlib:
 #       python -m pip install matplotlib

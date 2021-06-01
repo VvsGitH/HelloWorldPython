@@ -8,9 +8,10 @@ print(title)
 print('-' * 20)
 
 # CREATING DICTIONARIES
-new_dictionary = {}                                                     # empty dictionary
+new_dictionary = {}                                         # empty dictionary
 print(new_dictionary)
-student = {'name': 'John', 'age': 25, 'courses': ['Math', 'Algebra']}   # initialized dictionary
+student = {'name': 'John', 'age': 25, 'courses': [
+    'Math', 'Algebra']}   # initialized dictionary
 print(student)
 
 # MODIFYING DICTIONARIES

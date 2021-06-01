@@ -72,5 +72,3 @@ while True:                 # infinite loop -> CTRL+C to exit if something goes 
         break
     print('searching')
     x += 1
-
-
